@@ -1,8 +1,8 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.0)-1")
+(kicad_pcb (version 20171130) (host pcbnew 5.1.4-e60b266~84~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
-    (drawings 2510)
+    (drawings 2512)
     (tracks 275)
     (zones 0)
     (modules 188)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.5)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
@@ -7210,6 +7210,12 @@
       (net 2 "Net-(BT1-Pad1)"))
   )
 
+  (gr_text + (at 36.83 40.64) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text - (at 36.83 36.83) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_text 5 (at 125.152271 67.473478) (layer B.SilkS) (tstamp 5D267323)
     (effects (font (size 15 10) (thickness 0.6)) (justify mirror))
   )
